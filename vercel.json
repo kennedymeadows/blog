@@ -1,0 +1,9 @@
+{
+    "routes": [
+      { "src": "/", "dest": "/pages/index.html" },
+      { "src": "/post1", "dest": "/pages/post1.html" },
+      { "src": "/post2", "dest": "/pages/post2.html" },
+      { "src": "/public/(.*)", "dest": "/public/$1" }
+    ]
+  }
+  
