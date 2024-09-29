@@ -2,6 +2,7 @@
   @apply text-lg leading-relaxed;
 }
 
+/* Paragraph and common elements */
 .markdown p,
 .markdown ul,
 .markdown ol,
@@ -9,10 +10,76 @@
   @apply my-6;
 }
 
+/* Headers */
 .markdown h2 {
   @apply text-3xl mt-12 mb-4 leading-snug;
 }
 
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
+}
+
+/* Lists */
+.markdown ul {
+  @apply list-disc ml-6;
+}
+
+.markdown ol {
+  @apply list-decimal ml-6;
+}
+
+.markdown li {
+  @apply my-2;
+}
+
+/* Blockquotes */
+.markdown blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic text-gray-600;
+}
+
+/* Links */
+.markdown a {
+  @apply text-blue-600 underline hover:text-blue-800;
+}
+
+/* Inline Code */
+.markdown code {
+  @apply bg-gray-200 px-2 py-1 rounded font-mono text-sm;
+}
+
+/* Code Blocks */
+.markdown pre {
+  @apply bg-gray-800 text-white p-4 rounded overflow-x-auto;
+}
+
+.markdown pre code {
+  @apply bg-transparent p-0 text-white;
+}
+
+/* Horizontal Rule */
+.markdown hr {
+  @apply border-t-2 border-gray-300 my-8;
+}
+
+/* Images */
+.markdown img {
+  @apply max-w-full h-auto rounded-lg my-4;
+}
+
+/* Tables */
+.markdown table {
+  @apply w-full my-6;
+}
+
+.markdown th,
+.markdown td {
+  @apply border px-4 py-2;
+}
+
+.markdown th {
+  @apply bg-gray-100 font-bold;
+}
+
+.markdown td {
+  @apply text-center;
 }
