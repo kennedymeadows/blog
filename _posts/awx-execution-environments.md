@@ -8,6 +8,7 @@ author:
   picture: "/assets/blog/authors/author.svg"
 ogImage:
   url: "/assets/blog/awx-execution-environments/cover.svg"
+tags: ["Network Automation", "AWX", "Execution Environments", "juniper.device collection"]
 ---
 
 ## Why is there nothing online about this?
