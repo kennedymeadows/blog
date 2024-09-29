@@ -7,7 +7,7 @@ export function Intro() {
         Keep it simple Simon
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Posts about software development, and other things by Simon Lewis
+        Posts about software development, network automation, and more
       </h4>
     </section>
   );
