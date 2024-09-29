@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: `Keep it simple Simon`,
-  description: `Software development, network automation, and other things by Simon Lewis`,
+  description: `Posts about software development, network automation, and more`,
 };
 
 export default function RootLayout({
