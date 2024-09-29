@@ -29,7 +29,7 @@ export default async function Post({ params }: Params) {
             date={post.date}
             author={post.author}
           />
-          <PostBody content={content} />
+          <PostBody content={content} tags={post.tags} />
         </article>
       </Container>
     </main>
@@ -57,6 +57,8 @@ export function generateMetadata({ params }: Params): Metadata {
       title,
       images: [post.ogImage.url],
     },
+    keywords: post.tags ? post.tags.join(", ") : "",
+    description: post.excerpt,
   };
 }
 
